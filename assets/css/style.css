@@ -80,3 +80,33 @@ text-align: center;
 .logoContainer img{
 width: 100%
 }
+
+.wrapper .headerContent{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    background-color: #fafafa;
+    border-bottom: 1px solid #ebebeb;
+
+}
+
+.headerContent .logoContainer{
+    width: 150px;
+    padding: 25px 20px;
+    box-sizing: border-box;
+}
+
+.headerContent .searchContainer{
+    flex: 1;
+
+}
+
+.headerContent .searchContainer form{
+    margin: 15px 0px 28px 0px;
+}
+
+.headerContent .searchBarContainer{
+    height: 44px;;
+}
